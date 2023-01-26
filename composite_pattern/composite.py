@@ -46,7 +46,8 @@ group2 = Group()
 group2.add(Shape())  # Imaginary circle shapes
 group2.add(Shape())
 
-group = Group()
+group = Group()  # group that contains groups
+
 group.add(group1)
 group.add(group2)
 group.render()
