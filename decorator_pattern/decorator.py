@@ -46,7 +46,6 @@ class EncryptedCloudStream(Stream):
 
 class ClientCode:
     """Fictitious client """
-
     def execute_code(self):
         """Decorating various types of stream to obtain crazy results!"""
         self.store_credit_card(EncryptedCloudStream(CompressedCloudStream(CloudStream())))
