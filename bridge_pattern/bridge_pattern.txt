@@ -1,0 +1,6 @@
+The BRIDGE PATTERN:
+
+The bridge Pattern is mainly used when dealing with hierarchies that can grow in two different dimensions.
+
+In other words, Bridge is a structural design pattern that divides business logic or huge class into separate class hierarchies
+that can be developed independently.
